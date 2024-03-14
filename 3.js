@@ -20,7 +20,7 @@ const dayNumber = Number(prompt('Введите целое число в инт�
 if (dayNumber < 1 || dayNumber > 31){
     console.log("Неверное значение");
 }else {
-    const dekada = Number(String(dayNumber/10).charAt(0));
+    const dekada = Number(String(dayNumber / 10).charAt(0));
     if (dekada === 3){
         console.log(`Число ${dayNumber} попадает в 3 декаду месяца.`);
     }else{
