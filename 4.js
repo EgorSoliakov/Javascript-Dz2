@@ -25,10 +25,10 @@
 
 // Здесь пишем решение, данный комментарий необходимо стереть.
 const num = Number(prompt('Введите число:'));
-  const hundred = Math.trunc(num%1000/100);
-  const dozen = Math.trunc(num%100/10);
-  const piece = Math.trunc(num%10);
-  console.log(`В числе ${num} количесвто 
+const hundred = Math.trunc(num % 1000 / 100);
+const dozen = Math.trunc(num % 100 / 10);
+const piece = Math.trunc(num % 10);
+console.log(`В числе ${num} количесвто 
   сотен: ${hundred},
   десятков: ${dozen}, 
   единиц: ${piece}`);
